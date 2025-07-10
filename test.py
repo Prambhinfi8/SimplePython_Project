@@ -1,12 +1,11 @@
 import random
-
-word_list=["bhumil", "jay", "jaydip"]
-random_word=random.choice(word_list)
+word_list=["jay", "nisarg", "dev"]
+chosen_word=random.choice(word_list)
 
 guess=input("Guess a letter:").lower()
 
-for letter in random_word:
+for letter in chosen_word:
     if letter ==guess:
         print("right")
     else:
-        print("Wrong")
+        print("wrong")
