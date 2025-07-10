@@ -6,7 +6,7 @@ This is a simple Python project that demonstrates basic functionality.
 
 - Reads user input  
 - Performs simple calculations  
-- Displays output  
+ 
 
 ## Requirements
 

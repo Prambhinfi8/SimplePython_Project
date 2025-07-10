@@ -1,7 +1,12 @@
-print("Hello world")
-print(len("nariya"))
+import random
 
-def my_function():
-    print("hello world")
+word_list=["bhumil", "jay", "jaydip"]
+random_word=random.choice(word_list)
 
-my_function()
+guess=input("Guess a letter:").lower()
+
+for letter in random_word:
+    if letter ==guess:
+        print("right")
+    else:
+        print("Wrong")
