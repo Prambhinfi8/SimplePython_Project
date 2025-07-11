@@ -4,17 +4,13 @@ direction=input("Type 'encode' to Encrypt and type 'decode' to Decrypt:\n")
 text=input("Type your message:\n").lower()
 shift=int(input("Type the Shift Number:\n"))
 
-
-def encrypt(plain_text , shift_amount):
-    cipher_text=""
-    for letter in plain_text:
+def decrpyt(cipher_text,shift_amount):
+    Plain_text=""
+    for letter in cipher_text:
         position=alphabet.index(letter)
-        new_position=position+shift_amount
-        new_letter =alphabet[new_position]
-        cipher_text +=new_letter
-    print(f"the encoded message id :{cipher_text}")
+        new_position=position-shift_amount
+        new_letter=alphabet[new_position]
+        Plain_text+=new_letter
+    print(f"The decoded text is {Plain_text}")
 
-
-encrypt(plain_text=text,shift_amount=shift)
-
-
+decrpyt(cipher_text=text, shift_amount=shift)
