@@ -1,12 +1,6 @@
 # My Python Project
 
-This is a simple Python project that demonstrates basic functionality.
+This is a simple Python project .
 
-## Features
-
-- Reads user input  
-- Performs simple calculations  
  
-
-## Requirements
 
